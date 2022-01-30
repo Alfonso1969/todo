@@ -1,6 +1,8 @@
 (function (window) {
-	'use strict';
+'use strict';
+import Alpine from 'alpinejs'
+window.Alpine = Alpine
 
-	// Your starting point. Enjoy the ride!
+Alpine.start()
 
 })(window);
